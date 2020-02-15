@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Flink01.iml" filepath="$PROJECT_DIR$/.idea/modules/Flink01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Flink01_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Flink01_main.iml" group="Flink01" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Flink01_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Flink01_test.iml" group="Flink01" />
+      <module fileurl="file://$PROJECT_DIR$/Kafka02.iml" filepath="$PROJECT_DIR$/Kafka02.iml" />
+    </modules>
+  </component>
+</project>
