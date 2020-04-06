@@ -1,9 +1,9 @@
 package com.company.flink01;
 
+import com.company.flink01.entities.Alert;
+import com.company.flink01.entities.Transaction;
 import org.apache.flink.streaming.api.functions.KeyedProcessFunction;
 import org.apache.flink.util.Collector;
-import org.apache.flink.walkthrough.common.entity.Alert;
-import org.apache.flink.walkthrough.common.entity.Transaction;
 
 public class FraudDetector extends KeyedProcessFunction<Long, Transaction, Alert> {
 
