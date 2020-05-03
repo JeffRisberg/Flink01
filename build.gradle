@@ -24,8 +24,8 @@ dependencies {
   compile "org.slf4j:slf4j-api:$slf4jVersion"
   runtime "org.slf4j:slf4j-simple:$slf4jVersion"
 
-  compile group: 'org.apache.flink', name: 'flink-core', version: '1.9.0'
-  compile group: 'org.apache.flink', name: 'flink-streaming-java_2.12', version: '1.9.0'
-  
+  compile group: 'org.apache.flink', name: 'flink-core', version: '1.9.3'
+  compile group: 'org.apache.flink', name: 'flink-streaming-java_2.12', version: '1.9.3'
+
   testCompile "junit:junit:$junitVersion"
 }

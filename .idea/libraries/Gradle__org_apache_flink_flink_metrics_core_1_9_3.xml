@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.flink:flink-metrics-core:1.9.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.flink/flink-metrics-core/1.9.3/76dbd200d203cf35f609050bce9a00a63fd36b3b/flink-metrics-core-1.9.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.flink/flink-metrics-core/1.9.3/bc9436818cb98a5d66a22b57a54a35cbd87fc960/flink-metrics-core-1.9.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
