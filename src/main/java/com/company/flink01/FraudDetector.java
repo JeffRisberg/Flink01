@@ -14,10 +14,8 @@ public class FraudDetector extends KeyedProcessFunction<Long, Transaction, Alert
   private static final long ONE_MINUTE = 60 * 1000;
 
   @Override
-  public void processElement(
-    Transaction transaction,
-    Context context,
-    Collector<Alert> collector) throws Exception {
+  public void processElement(Transaction transaction, Context context, Collector<Alert> collector)
+      throws Exception {
 
     Alert alert = new Alert();
     alert.setId(transaction.getAccountId());
