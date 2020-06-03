@@ -17,7 +17,7 @@ version = '0.1.0'
 
 ext {
   slf4jVersion = '1.7.26'
-  projectLombokVersion = '1.16.22'
+  projectLombokVersion = '1.16.20'
   junitVersion = '4.12'
 }
 

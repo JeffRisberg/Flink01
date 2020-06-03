@@ -4,13 +4,5 @@
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Flink01.main" target="1.8" />
-      <module name="Flink01.test" target="1.8" />
-      <module name="Flink01_main" target="1.8" />
-      <module name="Flink01_test" target="1.8" />
-      <module name="Kafka02_main" target="1.8" />
-      <module name="Kafka02_test" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>

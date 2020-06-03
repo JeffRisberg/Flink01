@@ -11,7 +11,6 @@ import java.util.Objects;
  */
 @Data
 @NoArgsConstructor
-@AllArgsConstructor
 public final class Transaction {
 
   private long accountId;
@@ -19,6 +18,12 @@ public final class Transaction {
   private long timestamp;
 
   private double amount;
+
+  public Transaction(long accountId, long timestamp, double amount) {
+    this.accountId = accountId;
+    this.timestamp = timestamp;
+    this.amount = amount;
+  }
 
   public long getAccountId() {
     return accountId;
