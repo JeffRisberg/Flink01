@@ -7,8 +7,4 @@ import lombok.Data;
 public final class Alert {
 
   private long id;
-
-  public void setId(Long id) {
-    this.id = id;
-  }
 }
