@@ -2,3 +2,5 @@
 .idea/tasks.xml
 
 /build
+/out
+.gradle
